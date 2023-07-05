@@ -23,6 +23,7 @@
     ></script>
     <link href="css/styles.css" rel="stylesheet" />
   </head>
+
   <body>
     <div class="outer">
       <div class="relative bg-darkblue w-full">
@@ -42,7 +43,7 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </h3>
           <button
-            class="mt-3 px-8 py-4 z-10 bg-lightblue text-cream rounded-md hover:brightness-75 ease-linear duration-200"
+            class="mt-3 px-8 py-4 z-10 text-cream rounded-md bg-lightblue border border-lightblue hover:bg-lightblue/0 ease-linear duration-200"
           >
             Be the first to try
           </button>
@@ -108,7 +109,10 @@
               >
             </div>
           </div>
-          <div id="laptop-graphics" class="pl-0 lg:pl-[130px] pb-3 pr-0 lg:w-1/2 w-0">
+          <div
+            id="laptop-graphics"
+            class="pl-0 lg:pl-[130px] pb-3 pr-0 lg:w-1/2 w-0"
+          >
             <div
               class="hidden lg:block h-[500px] rounded-l-full overflow-hidden"
             >
@@ -200,11 +204,191 @@
                   />
                 </div>
                 <button
-                  class="self-start mt-4 rounded-md text-white border-white border px-8 py-3 font-semibold"
+                  class="self-start mt-4 rounded-md text-white border-white border hover:border-white/30 px-8 py-3 font-semibold hover:bg-white/20 ease-linear duration-200"
                 >
                   Subscribe to newsletter
                 </button>
               </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="white-bg" class="w-full relative">
+        <div
+          class="absolute top-0 left-0 w-[143px] h-[237px] bg-lightblue opacity-10 rounded-r-full"
+        ></div>
+        <div
+          class="absolute top-[135px] left-0 w-[263px] h-[331px] bg-pink opacity-10 rounded-r-full"
+        ></div>
+        <div
+          class="flex flex-col gap-y-4 px-8 justify-center items-center mx-auto max-w-[1440px] min-h-[500px] pt-28 pb-28"
+        >
+          <h1 class="z-10 md:text-29xl text-20xl text-center">
+            The future of recruitment technology
+          </h1>
+          <h3 class="z-10 leading-8 font-light w-full md:w-[710px] text-center">
+            Elevate your tech recruiting game with the first AI-powered
+            platform. Boost client wins, increase placements. It's genius
+            simplified.
+          </h3>
+          <button
+            class="mt-3 px-8 py-4 z-10 border border-pink hover:border-pink/10 text-pink rounded-md hover:bg-pink/10 ease-linear duration-200"
+          >
+            Be the first to try
+          </button>
+        </div>
+      </div>
+      <div id="two-pills" class="w-full relative overflow-x-hidden pb-24">
+        <div class="absolute w-full top-0 bottom-0 flex justify-center">
+          <div
+            class="flex-shrink-0 w-full rounded-r-full md:w-[1376px] md:translate-x-24 bg-darkblue md:rounded-full h-[534px]"
+          ></div>
+          <div
+            class="hidden md:block flex-shrink-0 w-[1376px] -translate-x-24 bg-lightblue opacity-20 rounded-full h-[534px]"
+          ></div>
+          <div
+            class="absolute z-20 right-0 top-[342px] bg-lightblue opacity-70 w-[142px] h-[137px] rounded-l-full"
+          ></div>
+          <div
+            class="absolute z-30 right-0 top-[420px] bg-pink opacity-90 w-[252px] h-[193px] rounded-l-full"
+          ></div>
+        </div>
+        <div
+          class="relative flex mx-auto max-w-[1440px] w-full h-[534px] xl:px-[200px] md:px-[90px] px-8"
+        >
+          <div
+            class="w-full md:w-1/2 pt-12 pb-16 text-white min-h-[400px] pr-8"
+          >
+            <h4 class="text-3xl font-lexend-deca mb-8">
+              Embrace the future of recruitment technology
+            </h4>
+            <p>
+              More text here<br />
+              And more
+            </p>
+          </div>
+          <div class="hidden md:block w-1/2 relative">
+            <div
+              class="absolute overflow-hidden rounded-l-full -translate-x-24 left-0 w-[723px] h-[534px]"
+            >
+              <div class="absolute w-full h-full -bottom-6">
+                <img
+                  src="images/man-laptop.png"
+                  class="h-full object-cover"
+                  alt="recruiter"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="feature-list" class="w-full">
+        <div
+          class="relative mx-auto max-w-[1440px] w-full flex flex-col gap-y-12 lg:flex-row gap-x-16 pt-16 pb-8 px-9 lg:px-0"
+        >
+          <div
+            class="xl:pl-[200px] lg:pl-[90px] pl-0 pb-4 lg:w-1/2 w-full flex flex-col gap-y-4"
+          >
+            <h5 class="z-10 font-lexend-deca text-24xl w-full leading-tight">
+              Create stunning floats in less than 10 minutes
+            </h5>
+            <p class="leading-8 my-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="flex gap-x-2 text-darkblue">
+              <i class="fa-solid fa-book text-xl pr-1"></i>
+              <a
+                href="https://www.linkedin.com/company/floats-ai/"
+                class="underline hover:no-underline"
+                >Read the latest on LinkedIn</a
+              >
+            </div>
+          </div>
+          <div
+            class="xl:pr-[200px] md:pr-[90px] pr-0 pl-0 pb-4 lg:w-1/2 w-full flex flex-col gap-y-4"
+          >
+            <div class="flex gap-x-2 items-center">
+              <i class="fa-regular fa-gem text-2xl mr-1"></i>
+              <h5 class="uppercase font-lexend-deca text-s tracking-[0.25rem]">
+                Sneak peak highlights
+              </h5>
+            </div>
+            <ul class="mb-1 z-10">
+              <li class="my-6 font-extralight flex">
+                <i
+                  class="fa-solid fa-check text-green text-xl leading-none pr-6"
+                ></i>
+                Effortlessly float your talent to companies hiring
+              </li>
+              <li class="my-6 font-extralight flex">
+                <i
+                  class="fa-solid fa-check text-green text-xl leading-none pr-6"
+                ></i>
+                Scale outreach efforts with ease
+              </li>
+              <li class="my-6 font-extralight flex">
+                <i
+                  class="fa-solid fa-check text-green text-xl leading-none pr-6"
+                ></i>
+                Streamline recruitment processes with interactive experiences
+              </li>
+              <li class="my-6 font-extralight flex">
+                <i
+                  class="fa-solid fa-check text-green text-xl leading-none pr-6"
+                ></i>
+                Unlock the potential of talent placement through AI-technology
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="relative w-full">
+        <div
+          class="absolute z-0 top-0 left-0 right-0 bottom-0 bg-lightblue opacity-20"
+        ></div>
+        <div
+          class="absolute z-10 top-[228px] left-0 bg-pink opacity-60 lg:opacity-90 w-[160px] h-[154px] rounded-r-full"
+        ></div>
+        <div
+          class="absolute z-10 top-[330px] left-0 bg-lightblue opacity-40 lg:opacity-70 w-[73px] h-[109px] rounded-r-full"
+        ></div>
+        <div
+          class="mx-auto max-w-[1440px] flex flex-col lg:flex-row items-center xl:px-[200px] md:px-[90px] px-8 py-[72px]"
+        >
+          <div
+            id="testimonial-text"
+            class="w-full lg:w-1/2 z-20 flex flex-col gap-y-8 lg:pr-[7rem] mb-6 lg:md-0"
+          >
+            <div class="flex gap-x-2 items-center">
+              <i class="fa-solid fa-hands-clapping text-2xl mr-1"></i>
+              <h5 class="uppercase font-lexend-deca text-xs tracking-[0.25rem]">
+                What our clients say
+              </h5>
+            </div>
+            <div>
+              <p class="text-2xl leading-relaxed">
+                &ldquo;I use this app on a daily basis and it reduces the time
+                to create floats from one hour to 10 minutes. Scott & Shaun are
+                super helpful and the app looks awesome!&rdquo;
+              </p>
+              <p class="text-sm font-light my-6">
+                Peter, Atlassian Tech Recruiter
+              </p>
+            </div>
+          </div>
+          <div id="sign-up-form" class="w-full lg:w-1/2 relative">
+            <div
+              class="max-w-[492px] p-10 bg-darkblue rounded-md text-white flex flex-col gap-y-10"
+            >
+              <h4 class="text-3xl font-lexend-deca">
+                Step into the modern era of recruitment tech.
+              </h4>
+              <p class="leading-relaxed">
+                &ldquo;I use this app on a daily basis and it reduces the time
+                to create floats from one hour to 10 minutes. Scott & Shaun are
+                super helpful and the app looks awesome!&rdquo;
+              </p>
             </div>
           </div>
         </div>
@@ -228,10 +412,9 @@
             ></a>
           </div>
         </div>
-        <div
-        class="w-full flex justify-center items-center pb-14 pt-8"
-      >
-      <p class="text-xs">Copyright floats.ai 2023</p>
+        <div class="w-full flex justify-center items-center pb-14 pt-8">
+          <p class="text-xs">Copyright floats.ai 2023</p>
+        </div>
       </div>
     </div>
   </body>
