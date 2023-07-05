@@ -2,6 +2,7 @@
 @layer base {
   html {
     @apply text-black;
+    scroll-behavior: smooth;
   }
 }
 
