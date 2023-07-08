@@ -644,6 +644,14 @@ html {
   top: 380px;
 }
 
+.top-\[292px\] {
+  top: 292px;
+}
+
+.top-\[370px\] {
+  top: 370px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -760,6 +768,26 @@ html {
 
 .mt-14 {
   margin-top: 3.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-28 {
+  margin-bottom: 7rem;
 }
 
 .flex {
@@ -974,6 +1002,18 @@ html {
   width: 600px;
 }
 
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[102px\] {
+  width: 102px;
+}
+
+.w-\[212px\] {
+  width: 212px;
+}
+
 .max-w-\[1440px\] {
   max-width: 1440px;
 }
@@ -984,6 +1024,10 @@ html {
 
 .max-w-\[700px\] {
   max-width: 700px;
+}
+
+.max-w-\[452px\] {
+  max-width: 452px;
 }
 
 .flex-shrink-0 {
@@ -1308,6 +1352,18 @@ html {
   padding-top: 2.25rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1379,6 +1435,10 @@ html {
 
 .leading-tight {
   line-height: 1.25;
+}
+
+.leading-loose {
+  line-height: 2;
 }
 
 .tracking-\[0\.25rem\] {
