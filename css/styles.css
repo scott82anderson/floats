@@ -1306,6 +1306,10 @@ html {
     flex-direction: row;
   }
 
+  .md\:items-end {
+    align-items: flex-end;
+  }
+
   .md\:justify-between {
     justify-content: space-between;
   }
